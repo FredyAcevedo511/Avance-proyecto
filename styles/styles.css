@@ -39,6 +39,14 @@ header{
     text-decoration: none;
     color: brown;
 }
+.barraNav li a:hover{
+    transition: background-color .5s;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    color: rgb(211, 19, 125);
+    }
 header li{
     display: inline-block;
     margin: 5px;
