@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Nosotros</title>
 </head>
@@ -44,7 +45,9 @@
         <main>
             <section class="cajaNosotros">
                 <div class="divNosotros">
-                    <img class="cupcakeNosotros" src="../images/cupcake.png" alt="cupcake">
+                    <img data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" class="cupcakeNosotros" src="../images/cupcake.png" alt="cupcake">
                 </div>
                 <div class="sobreNosotros">
                     <h2>SOBRE PAN EXITO</h2>
@@ -63,6 +66,10 @@
                 <a href="#"><img src="../images/icons8-whatsapp-48.png" alt="iconoWhatsapp"></a></li>
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </div>
 </body>
 </html>

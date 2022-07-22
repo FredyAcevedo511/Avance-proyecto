@@ -138,6 +138,43 @@ footer p{
     font-size: 20px;
     color: goldenrod;
 }
+.tituloContacto {
+	-webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+    }
+}
+@keyframes tracking-in-contract-bck-bottom {
+    0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+    }
+}
 .mainContacto{
     background-image: url(../images/fondoContacto.jpg);
     background-size: cover;
@@ -160,12 +197,49 @@ form{
     flex-flow: column wrap;
     align-items: center;
     gap: 10px;
-    
+    }
+    .tituloProductos{
+        margin-top: 20px;
+        color: white;
+        text-align: center;
+        font-size: larger;
+    }
 .tituloProductos{
-    margin-top: 20px;
-    color: white;
-    text-align: center;
-    font-size: larger;
+	-webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+    }
+}
+@keyframes tracking-in-contract-bck-bottom {
+    0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+    }
 }
 /**NOSOTROS**/
 .cajaNosotros{
@@ -189,8 +263,49 @@ form{
     justify-content: center;
     margin: 20px;
 }
-
 /**SERVICIOS**/
+.tituloServicios{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+.tituloServicios{
+	-webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+    }
+}
+@keyframes tracking-in-contract-bck-bottom {
+    0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+    }
+}
 .videoServicios, .videoServicios2{
     display: flex;
     flex-flow: row wrap;
@@ -241,6 +356,9 @@ form{
         font-size: 40px;
         color: beige;
     }
+    .tituloServicios{
+        font-size: larger;
+    }
     .cajaNosotros{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -278,6 +396,9 @@ form{
             top: 40vh;
             font-size: 40px;
             color: beige;
+        }
+        .tituloServicios{
+            font-size: 40px;
         }
         .divNosotros{
             margin: 30px;
