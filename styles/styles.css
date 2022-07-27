@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css2? familia=Oswald:wght@300;400&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2? familia=Cormorán+SC:wght@500&display=swap');
+
 
 /**font-family: 'Oswald', sans-serif;**/
+/**font-family: «Cormorán SC», serif;**/
+
 
 *{
     margin: o;
@@ -10,6 +15,7 @@
 body{
     background-color: #D7A86E;
     margin: 0;
+
 }
 .grillaGeneral{
     width: 100%;
@@ -30,7 +36,7 @@ header{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-content: center;
+    align-items:  center;
     background: rgb(255,38,38);
     background: linear-gradient(90deg, rgba(255,38,38,1) 0%, rgba(255,132,0,1) 26%, rgba(225,226,41,1) 100%);
 }
@@ -49,7 +55,7 @@ header{
     }
 header li{
     display: inline-block;
-    margin: 5px;
+    margin: 10px;
 }
 
 .logo{
@@ -103,6 +109,7 @@ footer {
     grid-area: footer;
     background-color: #603601;
     padding: 10px;
+    margin-top: 50px;
 }
 .barraFooter{
     display: flex;
@@ -186,23 +193,13 @@ form{
 }
 /**PRODUCTOS**/
 .card{
-    width: 80%;
-    height: 70vh;
-    border: 5px solid white;
-    border-radius: 50px;
+    margin: 30px;
 }
-.productosCard{
-    height: 600vh;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    gap: 10px;
-    }
-    .tituloProductos{
-        margin-top: 20px;
-        color: white;
-        text-align: center;
-        font-size: larger;
+.tituloProductos{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: larger;
     }
 .tituloProductos{
 	-webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -263,6 +260,7 @@ form{
     justify-content: center;
     margin: 20px;
 }
+
 /**SERVICIOS**/
 .tituloServicios{
     margin-top: 20px;
@@ -321,7 +319,7 @@ form{
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        align-content: center;
+        align-items: center;
         background: rgb(255,38,38);
         background: linear-gradient(90deg, rgba(255,38,38,1) 0%, rgba(255,132,0,1) 26%, rgba(225,226,41,1) 100%);
     }
@@ -329,25 +327,13 @@ form{
         color: white;
     }
     .logo{
-        width: 140px;
-        height: 60px;
+        width: 160px;
+        height: 50px;
         margin-top: 5px;
         margin-left: 10px;
     }
     body{
         background-color: #db8f32;
-    }
-    .productosCard{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-content: space-between;
-    }
-    .card{
-        width: 400px;
-        height: 400px;
-        border: 5px solid goldenrod;
-        border-radius: 50px;
     }
     .tituloProductos{
         font-size: larger;
@@ -380,17 +366,11 @@ form{
     }
 }
 @media (min-width:768px){
-    .productosCard{
-        height: 1600px;
-        }
-        .card{
-            width: 340px;
-            height: 340px;
-            border: 5px solid goldenrod;
-            border-radius: 50px;
-        }
         .tituloProductos{
             font-size: 40px;
+        }
+        header li{
+            margin: 5px;
         }
         .tituloContacto{
             top: 40vh;
@@ -420,16 +400,9 @@ form{
     header li{
         font-size: 20px;
     }
-    .card{
-        width: 400px;
-        height: 400px;
-        border: 5px solid white;
-        border-radius: 50px;
-    }
     .logo{
         width: 200px;
-        height: 60px;
-        margin-top: 5px;
+        height: 50px;
     }
     .sobreNosotros h2{
         color: white;
