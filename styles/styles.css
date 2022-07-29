@@ -43,7 +43,7 @@ header{
 .barraNav li a{
     list-style: none;
     text-decoration: none;
-    color: brown;
+    color: white;
 }
 .barraNav li a:hover{
     transition: background-color .5s;
@@ -68,9 +68,12 @@ header li{
     width: 100%;
     height: 100vh;
 }
+.buscador{
+    display: flex;
+}
 .tituloPrincipal{
     position: absolute;
-    top: 150px;
+    top: 300px;
     left: 30px;
     font-size: 70px;
     color: beige;
@@ -79,7 +82,7 @@ header li{
 }
 .subTitulo{
     position: absolute;
-    top: 350px;
+    top: 500px;
     left: 30px;
     font-size: 50px; 
     color: beige;
@@ -246,8 +249,9 @@ form{
     text-align: justify;
 }
 .cupcakeNosotros{
-    width: 100%;
-    height: 100vh;
+    width: 70%;
+    height: 60vh;
+    margin-top: 20px;
 }
 .divNosotros{
     display: flex;
@@ -379,6 +383,10 @@ form{
         }
         .tituloServicios{
             font-size: 40px;
+        }
+        .cupcakeNosotros{
+            width: 100%;
+            height: 90vh;
         }
         .divNosotros{
             margin: 30px;
