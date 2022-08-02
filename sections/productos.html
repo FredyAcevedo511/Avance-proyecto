@@ -10,38 +10,52 @@
     <title>Productos</title>
 </head>
 <body>
-    <div>
-
+    <div class="grillaGeneral">
         <header>
-            <div>
-                <img class="logo" src="../images/panaderiaLogo.png" alt="logoPrincipal">
+            <div class="container-fluid barraNav">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000" class="logo" src="../images/panaderiaLogo.png" alt="logo"> </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="../sections/nosotros.html">NOSOTROS</a>
+                                </li>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="../sections/servicios.html">SERVICIOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="../sections/productos.html">PRODUCTOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="../sections/contacto.html">CONTACTO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="http://www.levapan.com"target="_blank">LEVAPAN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><img src="../images/carritodeCompras.png" alt="carritodeCompras"></a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <nav>
-                <ul class="barraNav">
-                    <li>
-                        <a href="../index.html">INICIO</a>
-                    </li>
-                    <li>
-                        <a href="nosotros.html">NOSOTROS</a>
-                    </li>
-                    <li>
-                        <a href="servicios.html">SERVICIOS</a>
-                    </li>
-                    <li>
-                        <a href="productos.html">PRODUCTOS</a>
-                    </li>
-                    <li>
-                        <a href="contacto.html">CONTACTO</a>
-                    </li>
-                    <li>
-                        <a href="http://www.levapan.com"target="_blank">LEVAPAN</a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="../images/carritoDeCompras16.png"carritodeCompras"></a>
-                    </li>
-                </ul>
-            </nav>
         </header>
+    
 
         <main>
             <h1 class="tituloProductos">NUESTROS PRODUCTOS</h1>
@@ -155,11 +169,11 @@
                 <a href="#"><img src="../images/icons8-whatsapp-48.png" alt="iconoWhatsapp"></a></li>
             </div>
         </footer>
-    </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();
         </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </div>
 </body>
 </html>

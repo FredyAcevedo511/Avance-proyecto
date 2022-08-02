@@ -45,7 +45,7 @@ header{
     text-decoration: none;
     color: white;
 }
-.barraNav li a:hover{
+/**.barraNav li a:hover{
     transition: background-color .5s;
     transition-property: background-color;
     transition-duration: 0.5s;
@@ -55,8 +55,8 @@ header{
     }
 header li{
     display: inline-block;
-    margin: 10px;
-}
+
+}**/
 
 .logo{
     width: 80px;
@@ -67,9 +67,6 @@ header li{
 .imagenPortada{
     width: 100%;
     height: 100vh;
-}
-.buscador{
-    display: flex;
 }
 .tituloPrincipal{
     position: absolute;
@@ -361,13 +358,13 @@ form{
     .cupcakeNosotros{
         height: 80vh;
     }
-    .videoServicios, .videoServicios2{
+    /**.videoServicios, .videoServicios2{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row: 1fr 1fr;
         gap: 10px;
         text-align: justify;
-    }
+    }**/
 }
 @media (min-width:768px){
         .tituloProductos{
@@ -400,7 +397,7 @@ form{
     header{
         background: rgb(230,224,28);
         background: linear-gradient(156deg, rgba(230,224,28,1) 0%, rgba(253,100,29,1) 50%, rgba(226,252,69,1) 100%);
-        padding: 20px; 
+
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
@@ -409,7 +406,7 @@ form{
         font-size: 20px;
     }
     .logo{
-        width: 200px;
+        width: 150px;
         height: 50px;
     }
     .sobreNosotros h2{
