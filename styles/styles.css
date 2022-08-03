@@ -30,21 +30,33 @@ body{
 }
 
 /** HEADER PRINCIPAL**/
-header{
+.navbar{
     grid-area: header;
-    font-size: x-small;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items:  center;
     background: rgb(255,38,38);
     background: linear-gradient(90deg, rgba(255,38,38,1) 0%, rgba(255,132,0,1) 26%, rgba(225,226,41,1) 100%);
 }
-.barraNav li a{
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.barraNav{
+    display: flex;
+    align-items: center;
+}
+.tituloPrincipal{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.subTitulo{
+    color: white;
+    text-align: center;
+}
+/**.barraNav li a{
     list-style: none;
     text-decoration: none;
     color: white;
-}
+}**/
 /**.barraNav li a:hover{
     transition: background-color .5s;
     transition-property: background-color;
@@ -67,24 +79,6 @@ header li{
 .imagenPortada{
     width: 100%;
     height: 100vh;
-}
-.tituloPrincipal{
-    position: absolute;
-    top: 300px;
-    left: 30px;
-    font-size: 70px;
-    color: beige;
-    font-weight: bold;
-    font-family: 'El Nautigal', cursiva;
-}
-.subTitulo{
-    position: absolute;
-    top: 500px;
-    left: 30px;
-    font-size: 50px; 
-    color: beige;
-    font-weight: bold;
-    font-family: 'El Nautigal', cursiva;
 }
 main{
     grid-area: main;
@@ -397,7 +391,6 @@ form{
     header{
         background: rgb(230,224,28);
         background: linear-gradient(156deg, rgba(230,224,28,1) 0%, rgba(253,100,29,1) 50%, rgba(226,252,69,1) 100%);
-
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
@@ -408,6 +401,24 @@ form{
     .logo{
         width: 150px;
         height: 50px;
+    }
+    .tituloPrincipal{
+        position: absolute;
+        top: 300px;
+        left: 30px;
+        font-size: 70px;
+        color: beige;
+        font-weight: bold;
+        font-family: 'El Nautigal', cursiva;
+    }
+    .subTitulo{
+        position: absolute;
+        top: 500px;
+        left: 30px;
+        font-size: 50px; 
+        color: beige;
+        font-weight: bold;
+        font-family: 'El Nautigal', cursiva;
     }
     .sobreNosotros h2{
         color: white;
