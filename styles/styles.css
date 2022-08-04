@@ -32,16 +32,19 @@ body{
 /** HEADER PRINCIPAL**/
 .navbar{
     grid-area: header;
-    background: rgb(255,38,38);
-    background: linear-gradient(90deg, rgba(255,38,38,1) 0%, rgba(255,132,0,1) 26%, rgba(225,226,41,1) 100%);
+    background: rgb(226,149,26);
+    background: linear-gradient(39deg, rgba(226,149,26,1) 24%, rgba(208,67,20,1) 48%);
+}
+.navbar .navbar-nav .nav-link:hover{
+    background-color: rgb(206, 111, 22);
+}
+.navbar .navbar-nav .nav-link{
+    display: flex;
+    justify-content: center;
 }
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
-}
-.barraNav{
-    display: flex;
-    align-items: center;
 }
 .tituloPrincipal{
     color: white;
@@ -52,24 +55,6 @@ body{
     color: white;
     text-align: center;
 }
-/**.barraNav li a{
-    list-style: none;
-    text-decoration: none;
-    color: white;
-}**/
-/**.barraNav li a:hover{
-    transition: background-color .5s;
-    transition-property: background-color;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    color: rgb(211, 19, 125);
-    }
-header li{
-    display: inline-block;
-
-}**/
-
 .logo{
     width: 80px;
     height: 40px;
@@ -348,21 +333,7 @@ form{
     justify-items: center;
     margin: 20px;
 }
-
 @media (min-width:500px){
-    header{
-        grid-area: header;
-        font-size: medium;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-        background: rgb(255,38,38);
-        background: linear-gradient(90deg, rgba(255,38,38,1) 0%, rgba(255,132,0,1) 26%, rgba(225,226,41,1) 100%);
-    }
-    .barraNav li a{
-        color: white;
-    }
     .logo{
         width: 160px;
         height: 50px;
@@ -394,20 +365,21 @@ form{
     .cupcakeNosotros{
         height: 80vh;
     }
-    /**.videoServicios, .videoServicios2{
+    .videoServicios, .videoServicios2{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row: 1fr 1fr;
         gap: 10px;
         text-align: justify;
-    }**/
+    
+    }
 }
 @media (min-width:768px){
         .tituloProductos{
             font-size: 40px;
         }
         header li{
-            margin: 5px;
+            margin: 10px;
         }
         .tituloContacto{
             top: 40vh;
@@ -430,12 +402,11 @@ form{
         }
 }
 @media (min-width:1024px){
-    header{
-        background: rgb(230,224,28);
-        background: linear-gradient(156deg, rgba(230,224,28,1) 0%, rgba(253,100,29,1) 50%, rgba(226,252,69,1) 100%);
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
+    .navbar{
+        grid-area: header;
+        font-size: medium;
+        background: rgb(255,38,38);
+        background: linear-gradient(90deg, rgba(255,38,38,1) 0%, rgba(255,132,0,1) 26%, rgba(225,226,41,1) 100%);
     }
     header li{
         font-size: 20px;
