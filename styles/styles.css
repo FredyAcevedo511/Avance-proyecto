@@ -285,7 +285,7 @@ form{
 
 /**SERVICIOS**/
 .tituloServicios{
-    margin-top: 20px;
+    margin-top: 2rem;
     color: white;
     text-align: center;
     font-size: larger;
@@ -326,12 +326,18 @@ form{
     opacity: 1;
     }
 }
-.videoServicios, .videoServicios2{
+.videoServicios{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     justify-items: center;
-    margin: 20px;
+    text-align: justify;
+    margin: 3rem;
+}
+.video1{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
 }
 @media (min-width:500px){
     .logo{
@@ -351,7 +357,14 @@ form{
         color: beige;
     }
     .tituloServicios{
-        font-size: larger;
+        font-size: xx-large;
+    }
+    .divNosotros{
+        margin: 30px;
+        align-items: center;
+    }
+    .cupcakeNosotros{
+        width: 100%;
     }
     .cajaNosotros{
         display: grid;
@@ -361,44 +374,40 @@ form{
     }
     .sobreNosotros h2{
         text-align: center;
+        font-size: xx-large;
     }
     .cupcakeNosotros{
         height: 80vh;
     }
-    .videoServicios, .videoServicios2{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-row: 1fr 1fr;
-        gap: 10px;
-        text-align: justify;
-    
-    }
 }
 @media (min-width:768px){
-        .tituloProductos{
-            font-size: 40px;
-        }
         header li{
             margin: 10px;
+        }
+        .tituloProductos{
+            font-size: 40px;
         }
         .tituloContacto{
             top: 40vh;
             font-size: 40px;
             color: beige;
         }
-        .tituloServicios{
-            font-size: 40px;
-        }
         .cupcakeNosotros{
             width: 100%;
             height: 90vh;
         }
-        .divNosotros{
-            margin: 30px;
-            align-items: center;
-        }
         .sobreNosotros{
             font-size: 22px;
+        }
+        .tituloServicios{
+            font-size: 40px;
+        }
+        .videoServicios{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-row: 1fr 1fr;
+            gap: 30px;
+            justify-content: center;
         }
 }
 @media (min-width:1024px){
