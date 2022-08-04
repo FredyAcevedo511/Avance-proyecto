@@ -49,11 +49,14 @@ body{
 .tituloPrincipal{
     color: white;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 2rem;
+    font-size: larger;
+    font-family: 'El Nautigal', cursiva;
 }
 .subTitulo{
     color: white;
     text-align: center;
+    font-family: 'El Nautigal', cursiva;
 }
 .logo{
     width: 80px;
@@ -119,10 +122,11 @@ footer p{
     justify-content: center;
 }
 .tituloContacto{
-    position: absolute;
-    top: 50vh;
-    font-size: 20px;
-    color: goldenrod;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: larger;
+    font-family: 'El Nautigal', cursiva;
 }
 .tituloContacto {
 	-webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -170,15 +174,19 @@ form{
     margin-top: 50px;
     margin-left: 50px;
 }
+.formatoCliente{
+    margin-bottom: 2rem;
+}
 /**PRODUCTOS**/
 .card{
     margin: 30px;
 }
 .tituloProductos{
-    margin-top: 20px;
+    margin-top: 2rem;
     color: white;
     text-align: center;
     font-size: larger;
+    font-family: 'El Nautigal', cursiva;
     }
 .tituloProductos{
 	-webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -241,10 +249,11 @@ form{
     margin: 20px;
 }
 .tituloNosotros{
-    margin-top: 20px;
+    margin-top: 2rem;
     color: white;
     text-align: center;
     font-size: larger;
+    font-family: 'El Nautigal', cursiva;
 }
 .tituloNosotros{
     -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -289,6 +298,7 @@ form{
     color: white;
     text-align: center;
     font-size: larger;
+    font-family: 'El Nautigal', cursiva;
 }
 .tituloServicios{
 	-webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -349,11 +359,17 @@ form{
     body{
         background-color: #db8f32;
     }
+    .tituloPrincipal{
+        font-size: xx-large;
+    }
+    .subTitulo{
+        font-size: xx-large;
+    }
     .tituloProductos{
-        font-size: larger;
+        font-size: xx-large;
     }
     .tituloContacto{
-        font-size: 40px;
+        font-size: xx-large;
         color: beige;
     }
     .tituloServicios{
@@ -384,7 +400,13 @@ form{
         header li{
             margin: 10px;
         }
+        .tituloPrincipal{
+            font-size: 40px;
+        }
         .tituloProductos{
+            font-size: 40px;
+        }
+        .subTitulo{
             font-size: 40px;
         }
         .tituloContacto{
@@ -431,7 +453,6 @@ form{
         font-size: 70px;
         color: beige;
         font-weight: bold;
-        font-family: 'El Nautigal', cursiva;
     }
     .subTitulo{
         position: absolute;
@@ -440,7 +461,6 @@ form{
         font-size: 50px; 
         color: beige;
         font-weight: bold;
-        font-family: 'El Nautigal', cursiva;
     }
     .sobreNosotros h2{
         color: white;
