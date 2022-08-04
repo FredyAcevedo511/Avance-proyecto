@@ -35,12 +35,12 @@ body{
     background: rgb(226,149,26);
     background: linear-gradient(39deg, rgba(226,149,26,1) 24%, rgba(208,67,20,1) 48%);
 }
-.navbar .navbar-nav .nav-link:hover{
-    background-color: rgb(206, 111, 22);
-}
 .navbar .navbar-nav .nav-link{
     display: flex;
     justify-content: center;
+}
+.navbar .navbar-nav .nav-link:hover{
+    background-color: rgb(206, 111, 22);
 }
 .container-fluid{
     padding-left: 0;
@@ -403,10 +403,10 @@ form{
         .tituloPrincipal{
             font-size: 40px;
         }
-        .tituloProductos{
+        .subTitulo{
             font-size: 40px;
         }
-        .subTitulo{
+        .tituloProductos{
             font-size: 40px;
         }
         .tituloContacto{

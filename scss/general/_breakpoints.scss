@@ -1,0 +1,62 @@
+@media (min-width:500px){
+    .logo{
+        width: 160px;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    body{
+        background-color: #db8f32;
+    }
+    .tituloPrincipal{
+        font-size: xx-large;
+    }
+    .subTitulo{
+        font-size: xx-large;
+    }
+    .tituloProductos{
+        font-size: xx-large;
+    }
+}
+@media (min-width:768px){
+    header li{
+        margin: 10px;
+    }
+    .tituloPrincipal{
+        font-size: 40px;
+    }
+    .subTitulo{
+        font-size: 40px;
+    }
+}
+@media (min-width:1024px){
+    .navbar{
+        grid-area: header;
+        font-size: medium;
+        background: rgb(255,38,38);
+        background: linear-gradient(90deg, rgba(255,38,38,1) 0%, rgba(255,132,0,1) 26%, rgba(225,226,41,1) 100%);
+    }
+    header li{
+        font-size: 20px;
+    }
+    .logo{
+        width: 150px;
+        height: 50px;
+    }
+    .tituloPrincipal{
+        position: absolute;
+        top: 300px;
+        left: 30px;
+        font-size: 70px;
+        color: beige;
+        font-weight: bold;
+    }
+    .subTitulo{
+        position: absolute;
+        top: 500px;
+        left: 30px;
+        font-size: 50px; 
+        color: beige;
+        font-weight: bold;
+    }
+}
