@@ -1,0 +1,10 @@
+@mixin tipografiaTitulos{
+    margin-top: 2rem;
+    color: $colorTitulos;
+    text-align: center;
+    font-size: larger;
+    font-family: $curfont;
+}
+@mixin tipografiaTitulos500{
+    font-size: xx-large;
+}

@@ -116,11 +116,6 @@ footer p{
     width: 100%;
     height: 60vh;
 }
-.cajaContacto{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 .tituloContacto{
     color: white;
     text-align: center;
@@ -381,6 +376,7 @@ form{
     }
     .cupcakeNosotros{
         width: 100%;
+        height: 80vh;
     }
     .cajaNosotros{
         display: grid;
@@ -389,11 +385,7 @@ form{
         gap: 10px;
     }
     .sobreNosotros h2{
-        text-align: center;
         font-size: xx-large;
-    }
-    .cupcakeNosotros{
-        height: 80vh;
     }
 }
 @media (min-width:768px){

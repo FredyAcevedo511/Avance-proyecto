@@ -1,0 +1,57 @@
+.cajaNosotros{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1fr;
+    text-align: justify;
+    .divNosotros{
+        width: 70%;
+        height: 60vh;
+        margin-top: 20px;
+        .cupcakeNosotros{
+            width: 70%;
+            height: 60vh;
+            margin-top: 20px;
+        }
+    }
+    .sobreNosotros{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 20px;
+        .tituloNosotros{
+            @include tipografiaTitulos;
+        }
+    }
+}
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+    }
+}
+@keyframes tracking-in-contract-bck-bottom {
+    0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+    }
+}
