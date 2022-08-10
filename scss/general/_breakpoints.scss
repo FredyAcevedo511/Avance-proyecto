@@ -21,22 +21,22 @@
     .tituloProductos{
         font-size: xx-large;
     }
-}
-.cajaNosotros{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
-    .divNosotros{
-        margin: 30px;
-        align-items: center;
-        .cupcakeNosotros{
-            width: 100%;
-            height: 80vh;
+    .cajaNosotros{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+        .divNosotros{
+            margin: 30px;
+            align-items: center;
+            .cupcakeNosotros{
+                width: 100%;
+                height: 80vh;
+            }
         }
-    }
-    .tituloNosotros{
-        @include tipografiaTitulos500
+        .tituloNosotros{
+            @include tipografiaTitulos500
+        }
     }
 }
 @media (min-width:768px){
@@ -49,13 +49,13 @@
     .subTitulo{
         font-size: 40px;
     }
-}
-.tituloNosotros{
+    .tituloNosotros{
     font-size: 22px;
-}
-.cupcakeNosotros{
+    }
+    .cupcakeNosotros{
     width: 100%;
     height: 90vh;
+    }
 }
 
 @media (min-width:1024px){
@@ -87,5 +87,15 @@
         font-size: 50px; 
         color: beige;
         font-weight: bold;
+    }
+    .cajaNosotros{
+        .sobreNosotros{
+            .tituloNosotros{
+                @include tipografiaTitulos1024;
+            }
+            p{
+                font-size: 25px;
+            }
+        }
     }
 }

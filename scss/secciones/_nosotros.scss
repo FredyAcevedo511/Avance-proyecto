@@ -1,12 +1,12 @@
 .cajaNosotros{
     display: grid;
     grid-template-columns: 1fr;
-    grid-row: 1fr;
+    grid-template-rows: 1fr;
     text-align: justify;
     .divNosotros{
-        width: 70%;
-        height: 60vh;
-        margin-top: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
         .cupcakeNosotros{
             width: 70%;
             height: 60vh;
@@ -22,6 +22,10 @@
             @include tipografiaTitulos;
         }
     }
+}
+.tituloNosotros{
+    -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 @-webkit-keyframes tracking-in-contract-bck-bottom {
     0% {

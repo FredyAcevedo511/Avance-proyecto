@@ -89,12 +89,12 @@ footer {
 .cajaNosotros {
   display: grid;
   grid-template-columns: 1fr;
-  grid-row: 1fr;
+  grid-template-rows: 1fr;
   text-align: justify; }
   .cajaNosotros .divNosotros {
-    width: 70%;
-    height: 60vh;
-    margin-top: 20px; }
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
     .cajaNosotros .divNosotros .cupcakeNosotros {
       width: 70%;
       height: 60vh;
@@ -110,6 +110,10 @@ footer {
       text-align: center;
       font-size: larger;
       font-family: "El Nautigal", cursiva; }
+
+.tituloNosotros {
+  -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
 @-webkit-keyframes tracking-in-contract-bck-bottom {
   0% {
@@ -153,21 +157,20 @@ footer {
   .subTitulo {
     font-size: xx-large; }
   .tituloProductos {
-    font-size: xx-large; } }
-
-.cajaNosotros {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 10px; }
-  .cajaNosotros .divNosotros {
-    margin: 30px;
-    align-items: center; }
-    .cajaNosotros .divNosotros .cupcakeNosotros {
-      width: 100%;
-      height: 80vh; }
-  .cajaNosotros .tituloNosotros {
     font-size: xx-large; }
+  .cajaNosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px; }
+    .cajaNosotros .divNosotros {
+      margin: 30px;
+      align-items: center; }
+      .cajaNosotros .divNosotros .cupcakeNosotros {
+        width: 100%;
+        height: 80vh; }
+    .cajaNosotros .tituloNosotros {
+      font-size: xx-large; } }
 
 @media (min-width: 768px) {
   header li {
@@ -175,14 +178,12 @@ footer {
   .tituloPrincipal {
     font-size: 40px; }
   .subTitulo {
-    font-size: 40px; } }
-
-.tituloNosotros {
-  font-size: 22px; }
-
-.cupcakeNosotros {
-  width: 100%;
-  height: 90vh; }
+    font-size: 40px; }
+  .tituloNosotros {
+    font-size: 22px; }
+  .cupcakeNosotros {
+    width: 100%;
+    height: 90vh; } }
 
 @media (min-width: 1024px) {
   .navbar {
@@ -208,4 +209,8 @@ footer {
     left: 30px;
     font-size: 50px;
     color: beige;
-    font-weight: bold; } }
+    font-weight: bold; }
+  .cajaNosotros .sobreNosotros .tituloNosotros {
+    font-size: 40px; }
+  .cajaNosotros .sobreNosotros p {
+    font-size: 25px; } }

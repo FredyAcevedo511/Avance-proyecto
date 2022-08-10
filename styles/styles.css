@@ -250,10 +250,7 @@ form{
     font-size: larger;
     font-family: 'El Nautigal', cursiva;
 }
-.tituloNosotros{
-    -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
+
 @-webkit-keyframes tracking-in-contract-bck-bottom {
     0% {
     letter-spacing: 1em;
@@ -384,7 +381,7 @@ form{
         grid-row: 1fr 1fr;
         gap: 10px;
     }
-    .sobreNosotros h2{
+    .sobreNosotros h1{
         font-size: xx-large;
     }
 }
