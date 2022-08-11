@@ -5,6 +5,25 @@
   padding: o;
   box-sizing: border-box; }
 
+.navbar {
+  grid-area: header;
+  background: #e2951a;
+  background: linear-gradient(39deg, #e2951a 24%, #d04314 48%); }
+  .navbar .navbar-nav .nav-link {
+    display: flex;
+    justify-content: center; }
+    .navbar .navbar-nav .nav-link:hover {
+      background-color: #ce6f16; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+.logo {
+  width: 80px;
+  height: 40px;
+  margin-top: 5px; }
+
 body {
   background-color: #D7A86E;
   margin: 0; }
@@ -17,20 +36,6 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto 1fr; }
 
-.navbar {
-  grid-area: header;
-  background: #e2951a;
-  background: linear-gradient(39deg, #e2951a 24%, #d04314 48%); }
-  .navbar .navbar-nav .navbar-link {
-    display: flex;
-    justify-content: center; }
-    .navbar .navbar-nav .navbar-link:hover {
-      background-color: #ce6f16; }
-
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0; }
-
 .tituloPrincipal {
   margin-top: 2rem;
   color: white;
@@ -42,11 +47,6 @@ body {
   color: white;
   text-align: center;
   font-family: "El Nautigal", cursiva; }
-
-.logo {
-  width: 80px;
-  height: 40px;
-  margin-top: 5px; }
 
 .imagenPortada {
   width: 100%;
@@ -187,7 +187,6 @@ footer {
 
 @media (min-width: 1024px) {
   .navbar {
-    grid-area: header;
     font-size: medium;
     background: #ff2626;
     background: linear-gradient(90deg, #ff2626 0%, #ff8400 26%, #e1e229 100%); }

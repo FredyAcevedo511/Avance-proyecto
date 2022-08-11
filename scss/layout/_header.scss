@@ -1,0 +1,25 @@
+
+
+.navbar{
+    grid-area: header;
+    background: rgb(226,149,26);
+    background: linear-gradient(39deg, rgba(226,149,26,1) 24%, rgba(208,67,20,1) 48%);
+    
+    .navbar-nav .nav-link{
+        display: flex;
+        justify-content: center;
+        
+        &:hover{
+            background-color: rgb(206, 111, 22);
+        }
+    }
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.logo{
+    width: 80px;
+    height: 40px;
+    margin-top: 5px;
+}
