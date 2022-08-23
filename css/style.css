@@ -245,6 +245,8 @@ footer {
     text-align: center;
     font-size: larger;
     font-family: "El Nautigal", cursiva; }
+  .mainContacto iframe {
+    padding: 30px; }
 
 .tituloContacto {
   -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
