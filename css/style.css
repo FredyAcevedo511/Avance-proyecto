@@ -141,6 +141,9 @@ footer {
     transform: translateZ(0) translateY(0);
     opacity: 1; } }
 
+#carouselExampleControls {
+  padding: 30px; }
+
 .videoServicios {
   display: flex;
   flex-flow: row wrap;
