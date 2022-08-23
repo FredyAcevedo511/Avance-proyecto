@@ -346,9 +346,7 @@ form {
   .tituloProductos {
     font-size: 40px; }
   .mainContacto .tituloContacto {
-    font-size: 40px; }
-  .mainContacto iframe {
-    padding: 30px; } }
+    font-size: 40px; } }
 
 @media (min-width: 1024px) {
   .navbar {
