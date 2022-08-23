@@ -1,5 +1,19 @@
 
-
+body{
+    background-color: $colorBody;
+    margin: 0;
+}
+.grillaGeneral{
+    width: 100%;
+    height: 200vh ;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto 1fr;
+}
 .navbar{
     grid-area: header;
     background: rgb(226,149,26);

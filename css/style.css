@@ -5,6 +5,18 @@
   padding: o;
   box-sizing: border-box; }
 
+body {
+  background-color: #D7A86E;
+  margin: 0; }
+
+.grillaGeneral {
+  width: 100%;
+  height: 200vh;
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto 1fr; }
+
 .navbar {
   grid-area: header;
   background: #e2951a;
@@ -23,18 +35,6 @@
   width: 80px;
   height: 40px;
   margin-top: 5px; }
-
-body {
-  background-color: #D7A86E;
-  margin: 0; }
-
-.grillaGeneral {
-  width: 100%;
-  height: 200vh;
-  display: grid;
-  grid-template-areas: "header" "main" "footer";
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr auto 1fr; }
 
 .tituloPrincipal {
   margin-top: 2rem;
@@ -141,6 +141,146 @@ footer {
     transform: translateZ(0) translateY(0);
     opacity: 1; } }
 
+.videoServicios {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-items: center;
+  text-align: justify;
+  margin: 3rem; }
+  .videoServicios .video1 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem; }
+
+.tituloServicios {
+  margin-top: 2rem;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  font-family: "El Nautigal", cursiva; }
+
+.tituloServicios {
+  -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+    transform: translateZ(400px) translateY(300px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1; } }
+
+@keyframes tracking-in-contract-bck-bottom {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+    transform: translateZ(400px) translateY(300px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1; } }
+
+.card {
+  margin: 30px; }
+
+.tituloProductos {
+  margin-top: 2rem;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  font-family: "El Nautigal", cursiva; }
+
+.tituloProductos {
+  -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+    transform: translateZ(400px) translateY(300px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1; } }
+
+@keyframes tracking-in-contract-bck-bottom {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+    transform: translateZ(400px) translateY(300px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1; } }
+
+.mainContacto {
+  background-image: url(../images/fondoContacto.jpg);
+  background-size: cover; }
+  .mainContacto .imagenContacto {
+    width: 100%;
+    height: 60vh; }
+  .mainContacto .tituloContacto {
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: "El Nautigal", cursiva; }
+
+.tituloContacto {
+  -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+    transform: translateZ(400px) translateY(300px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1; } }
+
+@keyframes tracking-in-contract-bck-bottom {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+    transform: translateZ(400px) translateY(300px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1; } }
+
+form {
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px; }
+
+.formatoCliente {
+  margin-bottom: 2rem; }
+
 @media (min-width: 500px) {
   .logo {
     width: 160px;
@@ -170,7 +310,13 @@ footer {
         width: 100%;
         height: 80vh; }
     .cajaNosotros .tituloNosotros {
-      font-size: xx-large; } }
+      font-size: xx-large; }
+  .tituloServicios {
+    font-size: xx-large; }
+  .tituloProductos {
+    font-size: xx-large; }
+  .tituloContacto {
+    font-size: xx-large; } }
 
 @media (min-width: 768px) {
   header li {
@@ -183,7 +329,21 @@ footer {
     font-size: 22px; }
   .cupcakeNosotros {
     width: 100%;
-    height: 90vh; } }
+    height: 90vh; }
+  .tituloServicios {
+    font-size: 40px; }
+  .videoServicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    gap: 30px;
+    justify-content: center; }
+  .tituloProductos {
+    font-size: 40px; }
+  .mainContacto .tituloContacto {
+    font-size: 40px; }
+  .mainContacto iframe {
+    padding: 30px; } }
 
 @media (min-width: 1024px) {
   .navbar {
@@ -212,4 +372,7 @@ footer {
   .cajaNosotros .sobreNosotros .tituloNosotros {
     font-size: 40px; }
   .cajaNosotros .sobreNosotros p {
-    font-size: 25px; } }
+    font-size: 25px; }
+  .videoServicios iframe {
+    width: 500px;
+    height: 300px; } }
