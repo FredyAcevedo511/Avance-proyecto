@@ -1,6 +1,7 @@
 
 body{
-    background-color: $colorBody;
+    background-color: #db8f32;
+
     margin: 0;
 }
 .grillaGeneral{
@@ -22,8 +23,8 @@ body{
 }
 .navbar{
     grid-area: header;
-    background: rgb(226,149,26);
-    background: linear-gradient(39deg, rgba(226,149,26,1) 24%, rgba(208,67,20,1) 48%);
+    background-image: linear-gradient( 178.2deg,  rgba(118,8,23,1) 10.9%, rgba(158,12,33,1) 62.6% );
+
     
     .navbar-nav .nav-link{
         display: flex;
