@@ -13,6 +13,12 @@ body{
     "footer";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto 1fr;
+    .emblemaPanaderia{
+        img{
+            width: 100%;
+        }
+        
+    }
 }
 .navbar{
     grid-area: header;
@@ -22,12 +28,14 @@ body{
     .navbar-nav .nav-link{
         display: flex;
         justify-content: center;
+
         
         &:hover{
             background-color: rgb(206, 111, 22);
         }
     }
 }
+
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
