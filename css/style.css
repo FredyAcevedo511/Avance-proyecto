@@ -6,7 +6,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #db8f32;
+  background-color: #D7A86E;
   margin: 0; }
 
 .grillaGeneral {
@@ -21,7 +21,8 @@ body {
 
 .navbar {
   grid-area: header;
-  background-image: linear-gradient(178.2deg, #760817 10.9%, #9e0c21 62.6%); }
+  background: #e2951a;
+  background: linear-gradient(39deg, #e2951a 24%, #d04314 48%); }
   .navbar .navbar-nav .nav-link {
     display: flex;
     justify-content: center; }
@@ -266,20 +267,19 @@ footer {
     transform: translateZ(0) translateY(0);
     opacity: 1; } }
 
-.mainContacto {
-  background-image: url(../images/fondoContacto.jpg);
-  background-size: cover; }
-  .mainContacto .imagenContacto {
-    width: 100%;
-    height: 60vh; }
-  .mainContacto .tituloContacto {
-    margin-top: 2rem;
-    color: white;
-    text-align: center;
-    font-size: larger;
-    font-family: "El Nautigal", cursiva; }
-  .mainContacto iframe {
-    padding: 30px; }
+.mainContacto .imagenContacto {
+  width: 100%;
+  height: 60vh; }
+
+.mainContacto .tituloContacto {
+  margin-top: 2rem;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  font-family: "El Nautigal", cursiva; }
+
+.mainContacto iframe {
+  padding: 30px; }
 
 .tituloContacto {
   -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
@@ -311,13 +311,8 @@ footer {
     transform: translateZ(0) translateY(0);
     opacity: 1; } }
 
-form {
-  color: white;
-  margin-top: 50px;
-  margin-left: 50px; }
-
-.formatoCliente {
-  margin-bottom: 2rem; }
+.formularioContacto {
+  padding: 30px; }
 
 @media (min-width: 500px) {
   .logo {

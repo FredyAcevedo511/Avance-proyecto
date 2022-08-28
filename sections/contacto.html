@@ -71,66 +71,54 @@
                 <h1 class="tituloContacto">CONTACTANOS</h1>
             </div>
         </section>
-        <section>
-            <article class="formatoCliente">
-                <form action="#">
-                    <label for="nombre_apellido">Ingresa Nombre y Apellido</label>
-                    <input type="text" name="nombre_apellido">
-                    <br>
-                    <br>
-                    <label for="correo">Correo Electronico</label>
-                    <input type="text" name="correo">
-                    <br>
-                    <br>
-                    <label for="edad">Ingresa Edad</label>
-                    <input type="number" name="edad">
-                    <br>
-                    <br>
-                    <div>Documento de Identidad</div>
-                        <div>T.I</div>
-                        <input type="radio" name="Documento de Identidad" value="T.I">
-                        <div>C.C</div>
-                        <input type="radio" name="Documento de Identidad" value="C.C">
-                        <div>C.E</div>
-                        <input type="radio" name="Documento de Identidad" value="C.E">
-                    <br>
-                    <br>
-                    <label for="Identificacion">No. Identificacion</label>
-                    <input type="number" name="Identificacion">
-                    <br>
-                    <br>
-                    <div>Sexo</div>
-                        <div>Masculino</div>
-                        <input type="radio" name="Sexo" value="Masculino">
-                        <div>Femenino</div>
-                        <input type="radio" name="Sexo" value="Femenino">
-                    <br>
-                    <br>
-                    <label for="Nacionalidad">Nacionalidad</label>
-                    <input type="text" name="Nacionalidad">
-                    <br>
-                    <br>
-                    <div>TALLA</div>
-                    <select class="tallaSelect" name="talla" id="TALLA">
-                        <option value="S">SMALL</option>
-                        <option value="M">MEDIUM</option>
-                        <option value="L">LARGE</option>
+        <section class="formularioContacto">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="validationDefault01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputName">
+                </div>
+                <div class="col-md-6">
+                    <label for="validationDefault02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="inputlastName">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Teléfono</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="inputAddress">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputState" class="form-label">Estado</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Soltero</option>
+                        <option>Casado</option>
+                        <option>Separado</option>
                     </select>
-                    <br>
-                    <br>
-                    <div>Observaciones</div>
-                    <label for="Observaciones"></label>
-                    <textarea name="text" id="Observaciones" cols="20" rows="10"></textarea>
-                    <br>
-                    <br>
-                    <div>Acepta Terminos y Condiciones</div>
-                    <input type="checkbox" name="acepta" value="1">
-                    <br>
-                    <br>
-                    <input type="submit" value="Enviar Info">
-                    <input type="reset" value="Borrar Info">
-                </form>
-            </article>
+                </div>
+                <div class="col-mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Deja tus comentarios</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">Acepta los Terminos</label>
+                </div>
+                </div>
+                <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
         </section>
 
         <section class="mapsContacto">
