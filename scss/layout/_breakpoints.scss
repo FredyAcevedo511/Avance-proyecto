@@ -86,6 +86,13 @@
             font-size: 40px;
         }
     }
+    .mainContacto{
+        .contact{
+        display: grid;
+        grid-template-areas:
+        "formulario foto";
+        }
+    }
 }
 
 @media (min-width:1024px){

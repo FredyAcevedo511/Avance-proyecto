@@ -267,9 +267,20 @@ footer {
     transform: translateZ(0) translateY(0);
     opacity: 1; } }
 
+.mainContacto .contact {
+  display: grid;
+  grid-template-areas: "formulario" "foto"; }
+
 .mainContacto .imagenContacto {
   width: 100%;
-  height: 60vh; }
+  padding: 30px;
+  border-radius: 80px; }
+
+.mainContacto .fotoContacto {
+  grid-area: foto; }
+
+.mainContacto .formularioContacto {
+  grid-area: formulario; }
 
 .mainContacto .tituloContacto {
   margin-top: 2rem;
@@ -375,7 +386,10 @@ footer {
   .tituloProductos {
     font-size: 40px; }
   .mainContacto .tituloContacto {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .mainContacto .contact {
+    display: grid;
+    grid-template-areas: "formulario foto"; } }
 
 @media (min-width: 1024px) {
   .navbar {
