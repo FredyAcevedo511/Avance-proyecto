@@ -20,9 +20,6 @@
     .tituloPrincipal{
         @include tipografiaTitulos500;
     }
-    .subTitulo{
-        @include tipografiaTitulos500;
-    }
     .tituloProductos{
         @include tipografiaTitulos500;
     }
@@ -48,9 +45,6 @@
     .tituloPrincipal{
         font-size: 40px;
     }
-    .subTitulo{
-        font-size: 40px;
-    }
     .tituloNosotros{
     font-size: 22px;
     }
@@ -63,8 +57,8 @@
             margin-right: 30px;
             align-items: center;
             .cupcakeNosotros{
-                width: 100%;
-                height: 80vh;
+                width: 80%;
+                height: 80%;
             }
         }
     }
@@ -77,6 +71,11 @@
         grid-row: 1fr 1fr;
         gap: 30px;
         justify-content: center;
+    }
+    .listaServicios{
+        font-size: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .tituloProductos{
         font-size: 40px;
@@ -109,15 +108,9 @@
         height: 50px;
     }
     .tituloPrincipal{
-        font-size: 70px;
-        color: beige;
-        font-weight: bold;
+        @include tipografiaTitulos1024;
     }
-    .subTitulo{
-        font-size: 50px; 
-        color: beige;
-        font-weight: bold;
-    }
+
     .cajaNosotros{
         .sobreNosotros{
             .tituloNosotros{
