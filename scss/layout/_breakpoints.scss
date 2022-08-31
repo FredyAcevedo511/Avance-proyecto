@@ -31,6 +31,10 @@
     .tituloServicios{
         @include tipografiaTitulos500;
     }
+    .listaServicios{
+        font-size: 20px;
+        padding: 30px;
+    }
     .tituloProductos{
         @include tipografiaTitulos500;
     }
@@ -74,8 +78,6 @@
     }
     .listaServicios{
         font-size: 30px;
-        padding-left: 40px;
-        padding-right: 40px;
     }
     .tituloProductos{
         font-size: 40px;
@@ -124,7 +126,7 @@
     .videoServicios{
         iframe{
             width: 500px;
-            height: 300px;
+            height: 350px;
         }
     }
 }

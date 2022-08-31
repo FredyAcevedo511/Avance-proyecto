@@ -11,6 +11,11 @@
         padding: 30px;
     }
 }
+.imagenServicio{
+    width: 100%;
+    height: 70vh;
+    padding: 30px;
+}
 .tituloServicios{
     @include tipografiaTitulos;
 }
